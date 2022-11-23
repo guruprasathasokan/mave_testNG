@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="input1" value="webdriver.chrome.driver"></parameter>
+  <parameter name="input2" value="user.dir"></parameter>
+  <parameter name="input3" value="\\Driver01\\chromedriverNew.exe"></parameter>
+  <parameter name="Input4" value="https://www.amazon.in/"></parameter>
+  <parameter name="element" value="ap_password"></parameter>
+  <parameter name="password" value="Asokan4#"></parameter>
+    <classes>
+      <class name="org.browser.Amazon_Class"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

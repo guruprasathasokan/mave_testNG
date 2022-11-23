@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<parameter name="username" value="Guru Prasath Asokan"></parameter>
+		<parameter name="accountno" value="123456789"></parameter>
+
+		<classes>
+			<class name="org.testng.Parameterized_Text_Concept"></class>
+			<class name="org.testng.Parameteriezed_Text_Concept01"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
